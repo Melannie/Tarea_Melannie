@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.melanniecalvo.tareamelannie.MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:id="@+id/imageView"
+        android:src="@drawable/marciano"
+        android:requestWindowFeature= "Window.FEATURE_NO_TITLE"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo"
+        android:id="@+id/textView2"
+        android:textSize="42dp"
+        android:layout_marginTop="56dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/boton"
+        android:id="@+id/button3"
+        android:textSize="16dp"
+        android:background="@drawable/borde"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginLeft="36dp"
+
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+
+</RelativeLayout>
+
+
+

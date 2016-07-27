@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.melanniecalvo.tareamelannie.MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:id="@+id/imageView"
+        android:src="@drawable/marciano"
+        android:requestWindowFeature= "Window.FEATURE_NO_TITLE"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/boton"
+        android:id="@+id/button3"
+        android:textSize="14dp"
+        android:background="@drawable/borde"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="46dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo"
+        android:id="@+id/textView3"
+        android:textSize="42dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginRight="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
+
+
+
